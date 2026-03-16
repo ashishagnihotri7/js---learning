@@ -98,4 +98,164 @@
 
 
                  //  DAY 1 COMPLETE 
+                 // day 2 start 
 
+/*Q1 get user to input a number using prompt (" enter a number")and
+chechk if the number is a multiple of 5 or not */
+
+// let num = prompt(" enter a number :");
+// if(num %5 === 0){
+//     console.log("number is a numtiple of 5","num is ",num);
+
+// }
+// else{
+//     console.log("number is not a multiple of 5","num is ",num);
+
+// }
+
+
+// Q2 write a code which can give grades to students according to their SCORE
+// 1 90 -100 A
+// 2 70-89 B
+// 3 60-69 C
+// 4 50-59 D
+// 5 0-49 F
+
+// let marks = prompt("enter your marks :");
+// if (marks >= 90 && marks <=100){
+//     console.log("your grade is A");
+// }
+// else if (marks >=70 && marks <=89){
+//     console.log("your grade is B");
+// }
+// else if (marks >=60 && marks <=69){
+//     console.log("your grade is C");
+// }
+// else if (marks >=50 && marks <=59){
+//     console.log("your grade is D");
+// }
+// else{
+//     console.log("your grade is F");
+// }
+
+// Q3 SIMPLE CALCULATION 
+// addition
+// subtraction
+// multiplication
+// division
+// let a =10;
+// let b=20;
+// let add = a+b;
+// let sub =a-b;
+// let mul =a*b;
+// let div = a /b ;
+// console.log("addition is ",add);
+// console.log("subtraction is ",sub);
+// console.log("multiplication is ",mul);
+// console.log("division is ",div);
+
+
+        // 2️ Assignment Operator Practice
+// Q4 Perform these operations:
+// x += 10
+// x -= 5
+// x *= 2
+// let a = 20;
+// // a += 10; // ans is 30
+// // a -=5;  // ans is 15
+// // a *= 3; // ans is 60
+// // a %=4 // ans is 0
+// a**=2//  ans is 400
+// console.log(a); //we can print one by one all of this
+
+
+// Q4  AREA OF REACTANGLE
+// let length = prompt("enter the length pf rectangle ;")
+// let breath = prompt(" enter the breath of reactangle :")
+// let area = length * breath ;
+// console.log(" are of reactangle is ", area);
+
+// let a = 10;
+// let b=30;
+// if(a >b ){
+//     console.log(" a is greater then b ",a);
+// }
+// else {
+//     console.log(" b is greater then a",b);
+// }
+
+// Q5 CHECK EVEN OR ODD NUMBER
+// let num = prompt("enter a number : ");
+// if(num % 2 == 0){
+//     console.log("number is even", num);
+// }
+
+// else {
+//     console.log("number is odd", num);
+// }
+
+// Q6  CHECK VOTING ABALITY 
+
+// let age = prompt(" entere your age :");
+// if (age >= 18 ){
+//     console.log("you are eligibal for voting");
+// }
+// else {
+//     console.log(" you are not eligibal for voting ");
+// }
+
+//  3  LOGICAL OPERATOR PRACTICE 
+
+// Q7 7️ Login System
+
+// Create variables:
+// let username = "admin";
+// let password = "1234";
+// Check using logical AND (&&):
+// If both correct → "Login Successful"
+// Else → "Login Failed"
+
+// let username = "admin";
+// let passwoed = "1234";
+// if (username === "admin" && passwoed === "1234"){
+//     console.log("login sucessful");
+// }
+
+// Q8  CHECK PASS OF FAIL 
+
+// let marks = prompt("enter the marks :");
+// if (marks >= 33 && marks <=100 ){
+//     console.log("you are pass");
+// }
+// else {
+//     console.log("you are not pass");
+// }
+
+// 4 Conditional + Ternary Operator
+
+// Q 9: Positive or Negative
+// let num = prompt ("enter a number :");
+// if (num>0){
+//     console.log("number is positive ", num);
+// }
+// else if (num <0){
+//     console.log("number is negative ", num);
+// }
+// else {
+//     console.log("number is zero ", num);
+// }
+
+// Q 10: LARGEST OF 3 NUMBERS
+// let a = prompt("enter first number :");
+// let b = prompt("enter second number :");
+// let c = prompt("enter third number :");
+
+// if (a >= b && a >= c){
+//     console.log("largest number is ", a);
+// }
+// else if (b >= a && b >= c){
+//     console.log("largest number is ", b);
+// }
+// else {
+//     console.log("largest number is ", c);
+// }
