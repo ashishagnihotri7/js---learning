@@ -259,3 +259,88 @@ chechk if the number is a multiple of 5 or not */
 // else {
 //     console.log("largest number is ", c);
 // }
+
+          // practice day 3 start 
+//Q1 Print Numbers 1 to 10
+// for(let i= 0; i<=10; i ++)
+// {
+//     console.log(i)
+// }
+// Q2  PRINT EVEN NUMBER FROM 1 TO 10 
+// for(let i= 1; i<=20 ; i++){
+//     if(i % 2 ==0 ){
+//      console.log(i)
+//     }
+// }
+
+// Q3  PRINT NUMBER 1 TO 10 USINFG WHILE LOOP
+// let i = 10 ;
+// while(i>= 1){
+//     console.log(i);
+//     i--;
+// }
+
+// Q4 sum of number add 1 to 5
+// let sum = 0;
+// let n = 5;
+
+// for (let i = 1; i <= n; i++) {
+//     sum = sum + i;
+// }
+
+// console.log(sum);
+
+// Q5 multiplication table 
+
+// let table = prompt("entwe a table which you want ");
+// for(i =0 ; i<= 10 ; i++)
+// {
+//     console.log(table + " * " + i + "  =  "+( table * i ))
+// }
+
+// Q6 print number using do while loop print 1 to 5
+// let a = 0;
+// do{
+//     console.log(a);
+//     a++;
+// }while(a<=5);
+
+// Q9  Count Digits in Number let num = 12345; 
+// let number = 1234;
+// count = 0 ;
+// while(number >0){
+//     number = Math.floor(number /10);
+//     count ++;
+// }
+// console.log(count + " digit ");
+
+// Q10 print ashish using for of string 
+// let a = "ashish ";
+// size = 0;
+// for ( val of a ){
+//      size++;
+//     console.log(a ," size of ",size);
+// }
+
+// Q11 for in loop
+
+// let student ={
+//     fname: "ashish",
+//     class : "it_a",
+//     age : 21
+// };
+// for( key in student ){
+//     console.log(" key =", key , "value =",student[key]) 
+// }
+
+// Q12 Template Literals
+ let student = {
+    name: "ashish",
+    age: 22,
+};
+
+console.log("name is ", student.name, " age is ", student.age);
+console.log(`name is ${student.ashish} age is ${student.age}`);
+
+            //  DAY 3 COMPLETE
+            

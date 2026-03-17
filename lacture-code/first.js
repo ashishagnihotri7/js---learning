@@ -207,3 +207,174 @@
 // age2>=18? console.log("you are adult "): console.log("you are not adult");
   
             // DAY 2 FINISH 
+            // DAY 3 START
+
+      //LOOP & STRING IN JS
+
+// 1. For Loop in JS
+// for(let i= 1; i<=5; i++){
+//     console.log(" ashu");
+//     }
+//     console.log("loop end");
+
+// CALCULATE SUM FROM 1 TO 5
+// let sum = 0;
+// let n =20;
+// for(let i =0 ; i<=n ; i++){
+//     sum = sum +i;
+// }
+// console.log("sum is ",sum);
+
+// PRINT 1 TO 5 
+// for(let i =1 ; i<= 5 ; i ++){
+//     console.log("value of i is ", i );
+// }
+
+
+// WHILE LOOP IN JS 
+
+// let i = 1;
+// while(i<=5){
+//     console.log("ashu",i);
+//     i++;
+// }
+
+// DO WHILE LOOP 
+
+// let a =20 ;
+// do {
+//     console.log("ashu")
+//     i++;
+// }while(i<=10);
+
+// let i= 5;
+// do{
+//     console.log("i =",i)
+//     i++;
+// }while(i<=5);
+
+// FOR OF LOOP  // use for special data type use in arry and string ( not use for obj) 
+
+// let str = "ashishAgnihotri"; //camel case
+// let size =0;
+// for(let val of str) // itrater li under character ;
+// {
+//     console.log("val =",val);
+//     size++;
+// }
+// console.log("string size", size); // 15 
+
+ // FOR IN OBJ // use in  obj and arry // print value of key
+
+// let student = {
+//     namee :"ashish" ,
+//     class : "it_a" ,
+//     sub : "maths",
+//     cgpa: 9.5
+// };
+
+// for( key in student ){
+//     console.log("key =",key, "value", student[key] )
+// }
+
+
+        //    PRACTICE QUACTION 
+// Q1 print all even number from 0 to 100
+// for(let i=0 ; i<=100; i++){
+//     if(i % 2 == 0){
+//         console.log("even number are",i);
+//     }
+// }
+
+// // same code for odd number 
+// for(let i=0 ; i<=100; i++){
+//     if(i % 2 != 0){
+//         console.log("even number are",i);
+//     }
+// }
+
+// Q2 PRAACTICE QUACTION 2 A GAME CERATE A GAME WHWRW YOU START WITH ANY RANDOM GAME NUMBER  ASK THE USER TO KEEP GUSSEING
+// THE GAME NUMBER UNTIL THE USER ENTER CORRECT VALUE  
+
+// let userNumber = 25;
+// let enter = prompt(" guss the number ")
+// while(userNumber != enter){
+//     enter = prompt("you guess wrong number enter again ")
+// }
+// console.log("congurational you enter a rignt number ")
+
+
+                      // STRINg
+//  ring string type 1
+//  let a = "ashish";
+//  type 2 ;
+//  let b= 'ashish';
+                    // CALCULATE LENGTH OF STRING 
+// let a = "ashish";
+// console.log(a[0]);
+// console.log(a[2])
+
+
+            //TEMPLATE LITERALS IN JS  SPECIAL STRING USER `` 
+// let specialString= `ashis`;
+// console.log("specialString");
+// console.log(typeof specialString);
+
+           // IN THIS WE CAN WRIGHT STING WITH VARIABLE USE IN OBJ 
+// let student= {
+//     name:"ashish",
+//     class :12,
+//     sub : "maths"
+// };
+// // withot template literals
+// console.log("name is ",student.name, " class is ", student.class)
+// let output = `name is ${student.ashish} class is ${student.class}`
+// console.log(output);
+
+// let a = `this is an template literal ${1+2+3}`;
+// console.log(a);
+//    // SPACE CHARACTER 
+// let b = `ashish \n agnihotri`;
+// console.log(b);
+// console.log(a.length);
+
+          //STRING METHOD
+
+// let str = '      ashish  agni   '; //upper case // do not change original string // beacuse string are immutable
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+// console.log(str.trim());// remove space from starting and end 
+
+//slice
+// let str= "12345";
+// console.log(str.slice(1,3));
+// let str1= "67";
+// console.log(str.concat(str1)); // used to add  2 string
+// let add = str +str1;
+// console.log(add)
+
+
+// change string value
+// let str = "hellow";
+// console.log(str.replace("h","y"));
+
+// to find spacific value 
+
+
+// let str = "i love js ";
+// console.log(str.charAt(0));
+// console.log(str.charAt(4))
+
+         //PRACTICE QUACTION 
+//TAKE A NAME FORM USER AND OUTPUT SHOULD BE @NAME OF USER ANS 123 
+// 
+// let str=prompt(" enter a name ");
+// let str2= "@";
+
+// let str4 =  str2 +str +  str.length ;
+// console.log(str4);
+  
+
+
+          // DAY 3 COMPLE
+          
