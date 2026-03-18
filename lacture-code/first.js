@@ -377,4 +377,123 @@
 
 
           // DAY 3 COMPLE
-          
+            // DAY 4
+  
+            ///// ARRY //////////
+// PRINT MARKS OF 5 STUDENT 
+// let ashu = [23,30,50,90,60];
+// console.log(ashu);
+// console.log(ashu.length);
+// // for string 
+// let hero=["ashu","ant men ","super men","hanumen"];
+// console.log(hero); // and type of arry is object;
+
+// print marks of student through indix 
+
+// console.log(ashu[0]);
+// console.log(ashu[1]);
+// // console.log(ashu[2]);
+// console.log(ashu[3]);
+// console.log(ashu[4]);
+// we can also change an index ex change an index of 50 with 20
+// console.log(ashu[2]=20);
+
+// ashu[3]=100;
+// console.log(ashu);
+
+//......................................//
+
+// looping over an arry 
+
+// let hero = ['ashu',"ashish","agnihotri","maths"];
+// for(let idx = 0 ;idx<hero.length; idx++){
+//       console.log(hero[idx])
+// }
+
+// we can user both for of and for in loop but we preffer for in loop //
+
+//  FOR OF LOOP
+// let hero = ["ashish","ashu","some","ansh"];let size=0;
+// for(let index  of hero  ){
+//       console.log("index",index, size);
+//       size++
+// }
+// make arry of city print using for of loop and do upperCase
+// let city =["bhopal","indore ", "reva ", "gud"]
+// for(let index of city ){
+//   console.log(index.toUpperCase());
+// }
+
+//  PRACTICE QUACTION 1 calculate everage marks of studentt 
+// let student= [20,30,40,50,60,];
+// let sum =0;
+// for(val of student){
+//       sum += val;
+      
+// }
+// let avg = sum / student.length;
+// console.log(`everage of student marks is = ${avg}`)
+
+//  PRACTICE QUACTION 2
+// give arry with price if 5 iteam [250,645,300,900,50]  all iteam have  an oofer 10 % off on them change the arry to store final price of applying offer
+
+// let price =[250,645,300,900,50];
+// let i = 0 ;
+// for(let val of price){
+//       console.log(` index is ${i} and value is ${val}`)
+//       let offer = val /10 ;
+//        price[i]= price[i]- offer ;
+//       console.log(` after offer discoult is ${price[i]}`)
+//       i++
+// } // second way ;
+// for(let i =0 ;i<price.length;i++){
+//       let offer = price[i] /10 ;
+//        price[i] -= offer ;
+       
+// }
+// console.log(price);
+
+           // ARRY METHOD 
+//about push // if you have to add something at last 
+// let food =[ "apple","mango "];
+// food.push("tata")
+// console.log(food)
+
+// about pop delete from end & return 
+// food.pop();
+// console.log(food)
+
+// convert to string 
+// console.log(food.toString())
+
+      //CONCAT // basicly add to arry 
+// let a = ["ashu", "kshu"]
+// let b = [ " kdhu ", " ashu"]
+// let e= [ " kshu ", " ashish"]
+
+// let c = a.concat(b,e);
+// console.log(c);
+                //  unshift //user for puch
+// let a = ["ashu", "kshu"];
+//  a.unshift("kshu");
+
+// console.log(a);
+// // shift  //user for pop
+// let val = a.shift(); 
+// console.log("deleted val is " ,val );
+
+
+        //slice();
+// let a = ["ashu", "kshu", "ashisah", "agnihotri"];
+// console.log(a.slice(1,3)) // not include 3 one 
+
+      //splice;
+// let arr = [ 1,2,3,4,5,];
+// arr.splice(2,3,1,2,3);
+// console.log(arr);
+// add only value 
+// //arr.splice(2,1)// deleteing element of 3 index
+// console.log(arr);
+
+//.....................................................//
+                   //DAY 4 COMPLETE

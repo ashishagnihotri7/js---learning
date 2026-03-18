@@ -334,13 +334,125 @@ chechk if the number is a multiple of 5 or not */
 // }
 
 // Q12 Template Literals
- let student = {
-    name: "ashish",
-    age: 22,
-};
+//  let student = {
+//     name: "ashish",
+//     age: 22,
+// };
 
-console.log("name is ", student.name, " age is ", student.age);
-console.log(`name is ${student.ashish} age is ${student.age}`);
+// console.log("name is ", student.name, " age is ", student.age);
+// console.log(`name is ${student.ashish} age is ${student.age}`);
 
             //  DAY 3 COMPLETE
-            
+            // day 4   statrt 
+// Q 1 print arry element
+//  let a = [ 1,2,3,4,5,6 ];         
+//  console.log(a);
+
+ // Q2 PRENT 1 AND LAST ELEMENT 
+//   let a = [ 1,2,3,4,5,6 ];          
+//  console.log(a[0],a[5]);  
+
+// PRINT SUM OF ARRY 
+//   let a = [ 1,2,3,4,5,6 ];          
+//  let sum = 0;
+//  for(val of a )
+//  {
+//    sum += val ;
+   
+   
+//  }
+//  console.log(sum)
+
+// Q3 find maximum number
+// let a = [ 1,2,3,4,5,6 ];  
+// let max = [0];
+// for(val of a ){
+//     if(val>max)
+//         max = val ;
+
+// }
+// console.log(`maximum number is ${max}`);
+
+// let arr = [10, 25, 5, 40, 15];
+// let max = Math.max(...arr);
+
+// console.log(max);
+
+// Q3 ask user to enter a number 
+// let arr = [];
+// for (let i = 0; i < 5; i++) {
+//     let num = Number(prompt("enter a number"));
+//     arr.push(num);
+// }
+// let max = arr[0];  //   after filling array
+// for (let val of arr) {
+//     if (val > max) {
+//         max = val;
+//     }
+// }
+// console.log(max);
+
+ //4 COUNT HOW MANY NUMBER ARE EVEN 
+
+// let arr = [2, 5, 6, 7, 8];
+// for(val of arr){
+//     if( val %2 == 0);
+//     console.log(`number is  even ${val}`)
+// }
+
+ //Q5  REVERSE THE  ARRY 
+
+//  let arr = [1, 2, 3, 4];
+// let rev = [];
+
+// for (let i = arr.length - 1; i >= 0; i--) {
+//     rev.push(arr[i]);
+// }
+
+// Q6 // push element 
+
+//  let arr = [1, 2, 3, 4];
+//  arr.push(4);
+//  console.log(arr)
+
+//  Q7 pop element 
+
+// let arr = [1,2,3,4]
+// arr.pop();
+// console.log(arr)
+
+// Q9 shift remove first element  and unshift add element at start
+
+// let arr = [1,2,3,4]
+// arr.unshift(3);
+// console.log(arr);
+
+// arr.shift();
+// console.log(arr);
+
+// Q 10 slise and splice
+// let a = ["ashish", "agnihotri", "class", "second year"];
+// let b = a.slice(1, 3);
+// console.log(b);
+
+// let c = a.splice(1, 2 , "ashu","kshu"); // 1 starting index 2 jaha  se value change ker na means 2 index (0,1) "ashu","kshu"replace the agnihotri and class
+// console.log(c);
+// console.log(a);
+
+// Q11 //calculate bill
+// let price = [100,200,30];
+// let sum = 0;
+// for(val of price ){
+//     sum += val ;
+//     sum ++;
+    
+// }
+// console.log(sum);
+
+// Q12 merge to arry 
+// let a =[1,2,];
+// let b = [1,3,4,];
+//  let c =a.concat(b);
+// console.log(c);
+  
+            // DAY 4 COMPLETE
