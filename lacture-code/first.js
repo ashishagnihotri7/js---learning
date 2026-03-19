@@ -497,3 +497,208 @@
 
 //.....................................................//
                    //DAY 4 COMPLETE
+                  
+            //   DAY  5 START 
+                // function 
+
+// let a = "hellow";
+// console.log(a.toUpperCase());
+// let b = [1,2,3,]
+// b.push(4);
+// console.log(b); //() push() is function
+
+                //  FUNCTION CALL 
+// function myFunction(){
+//       console.log("ashu is here ");
+//       console.log("ashu is where ");
+// }
+// myFunction();
+
+// function myFunction(msg) //parameter ;
+// {
+//       console.log(msg);
+// }
+// myFunction(" i love js ");
+// myFunction(4);// argument 
+
+// Q1 create a function to add 2 number 
+// function sum(x,y){
+//       console.log(x+y);
+// }
+// sum(4,5);
+// sum(3,5);
+// sum(3,4);
+// sum(3,33);
+
+// user of return
+// function sum(x,y){
+//       // x y behive local variable in function -> scope
+//      s = x+y;
+//      return s;
+// }
+// let val= sum(3,4);
+// console.log(val);
+
+                 // ARROW FUNCTION // IT IS WAY TO WRIGHT FUNCTION IN COMPACT FORM ;
+
+// // arrow sum   //  part of modern JS 
+// const sum =(a,b)=>{
+//       console.log(a+b);
+// };
+// sum(3,4);
+
+// for multiplycation
+// const multi=(a,b)=>{
+//       console.log(a*b);
+//       }
+// multi(2,3);
+//     THROUGH RETURN 
+// const multi=(a,b)=>{
+// return a*b;      }
+
+// console.log(multi(2,3));
+// // know print heloow with this 
+// const hellow=()=>{
+//       console.log("hey my name is ashish agnihotri");
+// }
+// hellow();
+
+//Q2  CREATE A FUNCTION USING THE FUNCTION KEYWORD THAT TAKES A STRING AS AN ARGUMENT & RETURN THE NUMBER OF VOWLES IN THE STRING 
+
+// function countvoval(str){
+//       let count =0;
+//       for(const val of str){
+//             if(val==="a" || val==="e" || val==="i" || val==="o" || val|| "u" );
+//                   count ++ }
+//      console.log(count);
+// }
+// countvoval("ashishagnihotri");
+
+// Q3 create  a arrow function to perform same task
+//     let countvoval =(str)=>{
+//       let count= 0;
+//          for(const val of str){
+//             if(val==="a" || val==="e" || val==="i" || val==="o" || val|| "u" );
+//                   count ++ }
+//      console.log(count);
+//     }
+//     countvoval("ashishagnihotri");
+             
+             // FOR EWACH LOOP // arr.forEach(callbackFunction)
+// callbackfun :here ,it is a function to execute for each element in the arry 
+//*callback is a function passed as an argument to another function 
+
+// let arr =[1,2,3,4,]
+// arr.forEach(function ptintval(val){
+//       console.log(val);
+// });
+
+ // WITH ARROW FUNCTION 
+//  let arr =[1,2,3,4,]
+// arr.forEach((val)=>{
+//       console.log(val);
+// });
+
+// for upper case 
+
+// let arr = ["ashu", "ashuuu", "kshu", "name"];
+
+// arr.forEach((val,index,v) => {
+//     console.log(val.toUpperCase(),index,arr);
+// });
+
+//         HIGHER ORDER FUNCTION ARE THOSE FUNCTION WHO CAN USER Aanoter  FUNCTION AS A PERAMETER OR RETURN FUNCTION       AND         THIS FUNCTION ARE (  FOR EACH  SUNCTION  )
+
+// Q4 for a given arry number ,print the square of each val using the for each loop 
+// let number =[1,2,3,4,]; // it run 4 time 
+// number.forEach((val)=>{
+//       for(int of number){
+//             console.log(int * int )
+//       }
+// });
+
+// let number = [1, 2, 3, 4]; // for one time
+// number.forEach((val) => {
+//     console.log(val * val);
+// });
+
+// another way to right this 
+// let number = [1, 2, 3, 4]; 
+// let cal = (val) => {
+//     console.log(val * val);
+// }
+// number.forEach(cal);
+
+      //    ARRY METHOD
+// 1 map  create a new arry with the results of some operation the value its callback returns are used to form new arry 
+
+// let num =[1,2,3,4]
+//   num.map((val)=>{
+//       console.log(val);
+
+// });
+
+
+// let num =[1,2,3,4]
+//  let newArry = num.map((val)=>{
+//       return val * val ;
+// });
+
+// console.log(newArry);
+// console.log(num);
+              // filter  method
+// create anew arry of element that give true foa a conditionfilter eg ; all event element
+
+// let arry =[1,2,3,4,5];
+// let even = arry.filter((val)=>{
+//       return val % 2 == 0;
+// });
+// console.log(even);
+// console.log(arry);
+
+// reduce method 
+// performs some operation & reduce the arry to a single value it returns the single value it returns the single val 
+
+// let arr = [1,2,3,4,5];
+// let c= arr.reduce((res,current) => {
+//       return res + current
+// });
+// console.log(c);
+
+// for large number 
+// let q = [1,2,3,4,5,]
+// let output = q.reduce((pre,cur)=>{
+//       return pre > cur ? pre :cur ;
+// })
+// console.log(output);
+
+// Q we are giving arr marks of student filter out whose markks is greater then 90;
+
+// let marks =[40,50,99,89,98,945,93,2,5,677,6];
+// let filter=marks.filter((val)=>{
+//       return val > 90 ;
+// });
+// console.log(filter);
+
+// Q create a number n as input from user create an arry of number from 1 to n user the reduce method to calculate product of all numbers in the arry ;
+
+// let n = Number(prompt("enter a number"))
+// let arr = [];
+// for(let i = 1 ; i<=n ; i ++){
+//       arr[i-1] = i ;// 1[0], 2[1],3[2]...
+// }
+// console.log(arr)
+// let sum=arr.reduce((pre,result)=>{
+//       return pre + result ;
+// });
+
+// console.log("sum =",sum)
+
+// console.log(arr)
+// let factorial=arr.reduce((pre,result)=>{
+//       return pre *  result ;
+// });
+
+// console.log("factorial is ",factorial);
+
+//              DAY 5 COMPLETE 

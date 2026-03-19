@@ -456,3 +456,95 @@ chechk if the number is a multiple of 5 or not */
 // console.log(c);
   
             // DAY 4 COMPLETE
+            // DAY 5 START
+//Q1 write a program to add to number 
+// function addfun(a,b){
+//     console.log(a+b);
+// }
+// addfun(2,3);
+
+// Q2  wrirte name with arrow function 
+
+// const greet = (name) => {
+//   return "Hello " + name;
+// };
+
+// console.log(greet("ashish"));
+
+// Q3 check number is even or odd
+
+// let arr =[1,2,3,4,5,6]
+// const even = (val)=>{
+  
+//     return  val % 2==0;
+// }
+// console.log();
+// let result = arr.filter(even);
+// console.log(result);
+
+//Q4 for odd function 
+
+// let arr =[1,2,3,4,5,6]
+// const even = (val)=>{
+  
+//     return  val % 2 !=0;
+// }
+// console.log();
+// let result = arr.filter(even);
+// console.log(result);
+
+// Q5 with using for each looop
+// let arr = [1,2,3,4,5,6];
+// arr.forEach(function print(val){
+//     console.log(val);
+// });
+
+// Q6 square of this 
+// let arr = [1,2,3,4,5,6];
+// arr.forEach(function print(val){
+//     console.log(val*val);
+// });
+
+// Q7 call back function
+// function greetUser(name) {
+//     console.log("Hello " + name);
+// }
+
+// function processUser(name, callback) {
+//     callback(name);
+// }
+
+// processUser("Ashish", greetUser); 
+
+//Q8 use map and double number
+
+// let num =[1,2,3,4,5];
+// num.map((val)=>{
+//     console.log( val*val);
+// });
+
+// Q9 filter even number filter
+// let arr=[1,2,3,4,5];
+// const even=(val)=>{
+//     return val %2 ==0;
+// }
+// let result = arr.filter(even);
+// console.log(result);
+
+// Q10  use reduce of arry 
+
+// let arr =[1,2,3,4,];
+// let sum = arr.reduce((acc,val)=>{
+//     return acc + val 
+
+// });
+// console.log(sum);
+
+// Q11 print large number 
+// let arr= [1,2,3,4,5,6];
+// let sum = arr.reduce((acc,val)=>{
+//     return acc> val ? acc : val 
+// });
+// console.log(sum);
+ 
+               // DAY 5 COMPLETE
