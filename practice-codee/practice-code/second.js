@@ -548,3 +548,79 @@ chechk if the number is a multiple of 5 or not */
 // console.log(sum);
  
                // DAY 5 COMPLETE
+               // day 6 start
+
+/*Q1 create h2 heading Element with "hellow java script ".append "from apna collage student " to this text using js*/
+
+// let h1 = document.querySelector("h1")
+// console.dir(h1.innerText);
+// h1.innerText = h1.innerText + " from apan collage " //concatenate
+
+// Q2  CREATE A 3 DIV USE SAME CLASS "BOX" ACCESS THEM ADD NRE TEXT IN REACH OF THEM
+
+// ANS --> 
+let div = document.querySelectorAll(".box");
+// console.dir(div[0]);
+// console.dir(div[1]);
+// console.dir(div[2]);
+// div[0].innerText = "unique value 1";
+// div[1].innerText = "unique value 2";
+// div[2].innerText = "unique value 3";
+// console.dir(div[0].innerText);
+// console.dir(div[1].innerText);
+// console.dir(div[2].innerText);
+
+
+//         // we can do with for of loop 
+//         indx= 1;
+// for(div of div ){
+//  div.innerText = ` new value ${indx}`;
+// indx++;
+// console.dir(div.innerText);
+// }
+
+// Q3 // select all p tag
+
+// let p = document.getElementsByTagName("p")
+// console.dir(p); // through normal
+// console.dir(p[2]); // through index
+
+// Q4 select by all class 
+
+// let box = document.getElementsByClassName("box");
+
+// console.dir(box);      // full collection
+// console.dir(box[0]);   // 3rd element
+
+// Q5   Select by ID using querySelector 
+// let gym = document.querySelector("#gym")
+// console.dir(gym);
+
+  //Q6   Select First Element with Class
+//   let box=document.querySelector(".box")
+//   console.dir(box)
+
+  //Q7 for select all
+  
+//    let box=document.querySelectorAll(".box")
+//   console.dir(box);
+
+    //  Q9 loop through element 
+// let paras = document.querySelectorAll("p");
+
+// paras.forEach((p) => {
+//   console.log(p.innerText);
+// });
+
+    //    Q10  CHANGE TEXT TO PERA GRAPH
+    // let p = document.querySelector("p");
+    // p.innerText="hey";
+    // console.dir(p.innerText);
+    
+    // Q11 change html content
+//     let a= document.querySelector("div");
+
+// a.innerHTML = "<h1>New Heading</h1>"; 
+// console.dir(a.innerText);
+
+            //  DAY 6 COMPLETE 

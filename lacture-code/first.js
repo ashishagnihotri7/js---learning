@@ -702,3 +702,92 @@
 // console.log("factorial is ",factorial);
 
 //              DAY 5 COMPLETE 
+//    dom --> DOCUMENT OBJECT MODEL 
+/* <STYL></STYL> TAG IS USED TO ATTARCH CSS TO HTML
+<SCRIPT></SCRIPT> IS USE TO CONNECT JS TO HTML */
+
+         // WINDO OBJ 
+// the window obj represent an open windo in a browser it is browser object not java script & is automatically related by browser it is a global obj with lots of properties & method
+// console.log("hellow")
+// window.console.log("hellow")  // we can right in this way also 
+
+//              SELECTING WITH ID 
+
+// let heading1 = document.getElementById("heading");
+// console.dir(heading1);
+//              SELECTING WITH CLASS
+
+// let heading2= document.getElementsByClassName("heading3");
+// console.dir(heading2);
+//              
+
+// let heading = document.getElementById("Myid");
+// console.dir(heading); 
+
+
+                  // SELECTING WITH TAG
+
+// let pera = document.getElementsByTagName("p");
+// console.dir(pera);
+
+               //  QUERY SELECTOR  FOR 1 VALUE
+// let select = document.querySelector("P"); //for 1 element 
+// console.dir(select);
+
+
+               // QUEAY SELECTOR FOR ALL
+
+// let select = document.querySelectorAll("P"); //for all element 
+// console.dir(select);
+
+              // QUEARY SELECTOR FOR CLASS FOR ALL ELEMENT
+// let select1 = document.querySelectorAll(".heading3"); //for all element 
+// console.dir(select1);
+
+         // QURARY SLESCTOR FOR AN ID
+         
+// let select1 = document.querySelectorAll("#MYid"); //for all element 
+// console.dir(select1);
+
+
+            
+
+            //   console.dir(document.body.firstChild); // return tag name 
+// let c = document.querySelector("#name").children;
+// console.dir(c);
+
+
+                // PROPERTY 
+
+                 // to find tag name 
+// let el = document.querySelector("p");
+// console.log(el.innerText);
+
+// let div = document.querySelector("div");
+// console.dir(div);
+             // print inner text 
+// console.dir(div.innerText); //return html text not tag
+           // inner html 
+// console.dir(div.innerHTML);// return hole html with tag 
+            // change inner text 
+// div.innerText = "<div> inner div</div>";//user to change text of html
+// console.log(div.innerText);
+               
+
+// let heading = document.querySelector("h1");
+// console.dir(heading);
+//                // change text in html
+// heading.innerText = "new heading";
+// console.dir(heading.innerText);
+//             // CHANGE IN HTML
+// heading.innerHTML ="<i> ner heading</i>"
+// console.dir(heading.innerHTML);
+
+               // TEXT CONTACT ;
+
+// let heading = document.querySelector("h1");
+// console.dir(heading.innerHTML);
+// console.dir(heading.innerText); // it can not print beacuse of hide thig so we have to right inner contaent 
+// console.dir(heading.textContent);
+
+            //  DAY 6 COMPLETE 
