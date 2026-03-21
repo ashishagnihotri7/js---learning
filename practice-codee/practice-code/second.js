@@ -624,3 +624,96 @@ let div = document.querySelectorAll(".box");
 // console.dir(a.innerText);
 
             //  DAY 6 COMPLETE 
+            //  DAY 7 start
+// Q1 create a new button element five it a text "click me ,backgroundcolour " red 7 text colour white 
+
+// let button =document.createElement("button")
+// button.innerText =" click me "
+
+// button.style.color="white"
+// button.style.background="red"
+
+// let b = document.querySelector("body")
+// b.prepend(button);
+
+// Q2  CREATE A P TAG IN HTML GIVE IT A CLASS & SOME STYLLING NOW CREATE A NEW CLASS IN CSS AND TRY TO APPEND THIS CLASS TO THE <P> ELEMENT 
+//          DO YOU NOTICE HOW YOU OVERWRITE THE SAME CLASS NAME WHEN YOU ADD A NEW ONE ?
+// SOLVE THIS PROBLEM USING CLASS LIST
+
+// let pera = document.querySelector("p");
+
+// get class
+// let cls = pera.getAttribute("class");
+// console.log(cls);
+
+// set new class
+// pera.setAttribute("class", "myclass");
+
+// check again
+// console.log(pera.getAttribute("class"));
+
+// pera.classList.add("newclass")
+// pera.classList.remove("newclass")
+
+
+// Q3 Change the text of a paragraph to "Hello JavaScript
+
+// let text = document.querySelector("#text")
+// text.innerText = "hellow js"
+
+// Q4 Question:Change a div:background → bluetext → white
+// let box = document.querySelector(".box");
+
+// box.style.backgroundColor = "blue";
+// box.style.color = "white";
+
+// Q5 Create a button using JS and add it to body 
+// let but = document.createElement("button")
+// but.innerText = "click me";
+// document.body.append(but);
+
+// Q6 Add a heading before a div.
+
+// let pera = document.querySelector("#box")
+// let heading = document.createElement("h1")
+// heading.innerText="hellow my name "
+// pera.before(heading);
+
+// Q7 Remove a paragraph from page.
+// let pera = document.querySelector("#box");
+// pera.remove();
+
+// Q8 Question:Add two elements: one at startone at end
+
+// let cont = document.querySelector("#box")
+// let up = document.createElement("h1")
+// up.innerText ="upper side"
+// let down = document.createElement("h1")
+// down.innerText="down element "
+
+// cont.append(up);
+// cont.prepend(down);
+
+// Q9 Change all .box elements:text → "Updated"color → green
+
+// let boxes = document.querySelectorAll(".box")
+// boxes.forEach((box)=>{
+//     box.innerText = " upadte"
+//     box.style.color="green"
+//     box.style.backgroundColor="pink"
+// })
+
+// Q 10 Create a list dynamically with 3 items.
+// let ul = document.querySelector("#list")
+// let li1 = document.createElement("li")
+// li1.innerText= " item 1";
+
+// let li2 = document.createElement("li");
+// li2.innerText = "item 2";
+
+// let li3 = document.createElement("li")
+// li3.innerText="item 3"
+
+// ul.append(li1,li2,li3)
+
+            // day 7 end 

@@ -1,8 +1,23 @@
-.box{
+/* .box{
     width: 100px;
     height: 100px;
     border: 1px solid black;
     margin: 5px;
     text-align: center;
     background-color: aquamarine;
+} */
+
+/* .content {
+    color: red;
+}
+
+.newclass {
+    background-color: yellow;
+} */
+
+.box{
+    color: brown;
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
 }

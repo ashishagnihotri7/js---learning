@@ -8,3 +8,11 @@ body{
 .heading3{
     color: green;
 }
+
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: whitesmoke;
+    border: 1px solid black;
+}

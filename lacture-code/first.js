@@ -790,4 +790,107 @@
 // console.dir(heading.innerText); // it can not print beacuse of hide thig so we have to right inner contaent 
 // console.dir(heading.textContent);
 
-            //  DAY 6 COMPLETE 
+            //  DAY 6 COMPLE
+       
+            // DAY 7 START 
+
+             //  get attribute 
+// let a = document.querySelector("div")
+// console.dir(a);
+
+// let id = a.getAttribute("id");
+// console.dir(id); // printing id 
+
+// let name = a.getAttribute("name");
+// console.dir(name);
+
+             // for class
+// let it_a = document.querySelector("p");
+// console.dir(it_a);
+// let b = it_a.getAttribute("class")
+// console.dir(b);
+
+              //  FOR CHANGE ATTRIBUTE 
+// let it_a = document.querySelector("p");
+// console.dir(it_a);
+
+// // change class
+// it_a.setAttribute("class", "cse");
+
+// // check result
+// console.dir(it_a);
+
+        // FOR STYLE OF CSS IN JS 
+// let div = document.querySelector("div");
+// console.dir(div);
+// console.dir(div.style);
+            //    changing colour in js 
+// console.dir(div.style.backgroundColor ="green"); method 1
+// let b = div.style.backgroundColor = "red";
+// console.dir(b);
+
+              // hide property 
+// let div = document.querySelector("div");
+// console.dir(div);
+// div.style.visibility ="hidden";
+
+         // INSERT ELEMENY ; // add element in last 
+// let newBt = document.createElement("button");
+// newBt.innerText = " click me ";
+
+// console.dir(newBt);
+
+// let div = document.querySelector("div");
+// div.append(newBt);
+     
+                  //add element in first
+// let newBt = document.createElement("button");
+// newBt.innerText = " click me ";
+
+// console.dir(newBt);
+
+// let div = document.querySelector("div");
+// div.prepend(newBt); // addd in first
+
+                // ADD ELEMENT JUST BEFORE NODE 
+// let newBt = document.createElement("button");
+// newBt.innerText = " click me ";
+
+// console.dir(newBt);
+
+// let div = document.querySelector("div");
+// div.before(newBt); // just before node 
+
+            //     ADD ELEMENT JUST AFTER NODE 
+
+// let newBt = document.createElement("button");
+// newBt.innerText = " click me ";
+
+// console.dir(newBt);
+
+// let div = document.querySelector("div");
+// div.after(newBt); // just after node 
+
+            //  AFTER PERA 
+
+// let newBt = document.createElement("button");
+// newBt.innerText = " click me ";
+
+// console.dir(newBt);
+
+// let div = document.querySelector("p");
+// div.after(newBt); // just after node/element 
+
+             // CREATE NEW HEADING ADD IN TOP 
+// let newHeading = document.createElement("h1");
+
+// newHeading.innerHTML = "<i> hi i am new</i>";
+
+// document.querySelector("body").prepend(newHeading);
+
+//       // FOR DELETING NODE 
+// let pera = document.querySelector("p");
+// pera.remove();
+  
+        // DAY 7 COMPLETE ;
+                  
