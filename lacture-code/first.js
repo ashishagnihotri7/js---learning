@@ -894,3 +894,65 @@
   
         // DAY 7 COMPLETE ;
                   
+        // DAY 8 start
+ 
+// let b1 = document.querySelector("#b1")
+// b1.onclick =() =>{
+//       console.log("button is click");
+//       let a = 25 ;
+//       a++;
+//       console.log(a);//26
+      
+// }
+// let b1 = document.querySelector("#b1")
+// b1.onclick =(e) =>{
+//       console.log(e);
+//       console.log(e.clientY);
+//       console.log(e.type);
+//       console.log(e.target);
+     
+      
+// }
+// let b1 = document.querySelector("#b1");
+
+// handler 1
+// b1.addEventListener("click", () => {
+//     console.log("button one was click - handler 1");
+// });
+
+// // handler 2
+// b1.addEventListener("click", () => {
+//     console.log("button one was click - handler 2");
+// });
+
+// // handler 3 (defined outside)
+// const handler3 = () => {
+//     console.log("button one was click - handler 3");
+// };
+
+// b1.addEventListener("click", handler3);
+
+// // handler 4
+// b1.addEventListener("click", () => {
+//     console.log("button one was click - handler 4");
+// });
+
+// // remove handler 3
+// b1.removeEventListener("click", handler3);
+// let box = document.querySelector("#click");
+
+// let currentmod = "light"; // initial
+
+// box.addEventListener("click", () => {
+//     if (currentmod === "light") {
+//         currentmod = "dark";
+//         document.body.style.backgroundColor = "black"; 
+//     } else {
+//         currentmod = "light";
+//         document.body.style.backgroundColor = "white"; 
+//     }
+
+//     console.log(currentmod);
+// });
+          
+        //    DAY 8 COMPLETE 

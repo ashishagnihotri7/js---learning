@@ -1,4 +1,4 @@
-p{
+/* p{
     color: yellow;
     background-color:blue;
 }
@@ -15,4 +15,16 @@ body{
     background-color: blue;
     color: whitesmoke;
     border: 1px solid black;
+} */
+
+    /* // day 8 start  */
+div{
+     height: 100px;
+    width: 100px;
+    color: white;
+    background-color: blue;
+    border: ipx solid black;
+    
+    height: 100px;
+    width: 100px;
 }

@@ -717,3 +717,109 @@ let div = document.querySelectorAll(".box");
 // ul.append(li1,li2,li3)
 
             // day 7 end 
+            //DAY 8 START 
+// Q1 click button print something
+// function hellow(){
+//     console.log("button click")
+// }
+// Q2 Handle Click using addEventListener
+// let but = document.querySelector("#but");
+// but.addEventListener("click",()=>{
+//     console.log("button click");
+// });
+
+// Q3 print event details
+// let but = document.querySelector("#but");
+// but.addEventListener("click", (event) => {
+//   console.log(event);
+  
+//   console.log(event.type);     // click
+//   console.log(event.target);   // button
+
+// });
+
+// Q4 Remove Event 
+// function sayHello() {
+//       console.log("Button Clicked!");
+//     }
+
+//     function removeEvent() {
+//       let btn = document.getElementById("btn");
+
+//       // Remove onclick event
+//       btn.onclick = null;
+
+//       console.log("Event Removed!");
+//     }
+
+// Q5 Add multiple events
+// let btn = document.querySelector("#btn");
+// btn.addEventListener("click", () => {
+//   console.log("Clicked");
+// });
+
+// btn.addEventListener("mouseover", () => {
+//   console.log("Mouse Over");
+// });
+
+// Q6 change the text 
+// function change(){
+//     console.log(" don't click me");
+// }
+// function news(){
+//     console.log(" click me");
+// }
+// let btn = document.querySelector("#btn");
+// let text = document.querySelector("#text");
+// // Q7 change inner text on click 
+// btn.addEventListener("click", () => { 
+//   text.innerText = "Changed!";
+// });
+// // Q8 change backgroundColor yrllow
+// btn.addEventListener("click", () => {
+//   document.body.style.backgroundColor = "yellow";
+// });
+// // Q9 change  text on dubble click
+// btn.addEventListener("dblclick", () => {
+//   console.log("Double Clicked!");
+// });
+// // Q9  mouse over effect hai ye 
+// btn.addEventListener("mouseover", () => {
+//   btn.style.backgroundColor = "red";
+// });
+
+// Q10 toggle colour 
+// let btn = document.querySelector("button");
+// let text = document.querySelector("p"); // select your text
+
+// let mode = "light";
+
+// btn.addEventListener("click", () => {
+
+//     // change text
+//     text.innerText = "Changed!";
+
+//     if (mode === "light") {
+//         mode = "dark";
+//         document.body.style.backgroundColor = "black";
+//         text.style.color = "white"; // text white on dark
+//     } else {
+//         mode = "light";
+//         document.body.style.backgroundColor = "white";
+//         text.style.color = "black"; // text black on light
+//     }
+
+// });
+
+// Q 11 counter app 
+// let count = 0;
+
+// let btn = document.querySelector("#inc");
+// let display = document.querySelector("#count");
+
+// btn.addEventListener("click", () => {
+//   count++;
+//   display.innerText = count;
+// });
+
+            //  DAY 8 COMPLETE
