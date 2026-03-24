@@ -102,3 +102,5 @@ newgame.addEventListener("click", resetgame);
 
 
          // DAY 9 COMPLETE
+         //  DAY 10 START 
+             //    DAY 10 PROJECT COMPLETE 
