@@ -823,3 +823,189 @@ let div = document.querySelectorAll(".box");
 // });
 
             //  DAY 8 COMPLETE
+            // DAY 11 START 9 AND 10 IS OF PROJECT DAY 
+
+// Q1 YOU ARE CREATING A WEBSITE FOR YOUR COLLAGE .CREATE A CLASS USER WITH 2 PROPERTY NAME & EMAIL   .IT ALSO HAS A METHOD CALLED VIEWDATA() THAT ALLOWS USER TO VIEW WEBSITE DATA 
+
+// let data = "secret data";
+
+// class User {
+//     constructor(name, email) {
+//         this.name = name;
+//         this.email = email;
+//     }
+
+//     viewData() {
+//         console.log(data);
+//     }
+// }
+
+// let student1 = new User("ashish", "ashu@gmail.com");
+// let student2 = new User("ashu", "ashu@gmail.com");
+
+// console.log(student1);
+// console.log(student2);
+
+// student1.viewData();
+// student2.viewData();
+
+
+// Q2 in this add a new admin and  also it can eccess data 
+
+
+// let data = "secret data";
+
+// class User {
+//     constructor(name, email) {
+//         this.name = name;
+//         this.email = email;
+//     }
+
+//     viewData() {
+//         console.log(data);
+//     }
+// }
+
+// class Admin extends User {
+//     constructor(name,email){
+//         super(name,email);
+
+//     }
+//     updateData() {
+//         data = "data updated by admin";
+//     }
+// }
+
+// //  Create Admin object
+// let admin1 = new Admin("Ashish", "admin@gmail.com");
+
+// //  Call method
+// admin1.updateData();
+
+// //  Check result
+// admin1.viewData(); // data updated by admin
+
+// console.log(admin1);
+
+// Q3Create a class Student with: name age Print student details.
+// class Student{
+//     constructor(name,age){
+//         this.name=name;
+//         this.age= age;
+//     }
+
+//     showDetails(){
+//         console.log("name is",this.name);
+//         console.log("ageis",this.age);
+//     }
+// }
+
+// let s1 = new Student("ashish",19);
+// let s2 = new Student("kshu",19);
+// s1.showDetails();
+// s2.showDetails();
+
+
+// Q4Create a class Car with method start().
+// class Car{
+//     start(){
+//         console.log("start car")
+//     }
+// }
+
+// let s1 = new Car;
+// s1.start();
+
+
+// Q5 Inheritance Exampl  Question: Create: Parent class Person Child class Engineer
+// class Person{
+//     constructor(name){
+//         this.name=name;                // IN THIS WE ALSO SEE FUNCTION OVER RIDEING
+//     }                                      
+//     work(){
+//         console.log(" person work")
+//     }
+// }
+
+// class Enginer extends Person{
+//     work(){
+//     console.log("enginer build softwhwre")
+//     }
+// }
+
+// let e1 = new Enginer("ashish");
+// e1.work();
+
+// Q6 Pass value to parent constructor.
+
+// class Person{
+//     constructor(name){
+//         this.name=name ;
+//     };
+// };
+
+// class student extends Person{
+//     constructor(name,sub){
+//         super(name);
+//         this.sub=sub;
+//     }
+// }
+
+// let s1 = new student("Ashish", "BCA");
+// console.log(s1)
+
+
+// Q7  Create class: balance deposit method withdraw method
+
+
+// class BankAccount {
+//   constructor(balance) {
+//     this.balance = balance;
+//   }
+
+//   deposit(amount) {
+//     this.balance += amount;
+//     console.log("Balance:", this.balance);
+//   }
+
+//   withdraw(amount) {
+//     this.balance -= amount;
+//     console.log("Balance:", this.balance);
+//   }
+// }
+
+// let acc = new BankAccount(1000);
+
+// acc.deposit(500);   // 1500
+// acc.withdraw(300);  // 1200
+
+// Q9  Create static method.
+
+// class add{
+//     add1(a,b){
+//         return a+b;
+//     }
+// }
+
+// let s1 = new add;
+// console.log(s1.add1(4,5))
+
+
+// Q10 Count Object count how many objects created.
+
+// class User{
+//    static count = 0 
+//     constructor(){
+//         User.count++;
+//     }
+// }
+
+// let u1 = new User;
+// let u2 = new User;
+// let u3 = new User;
+
+// console.log(User.count);
+
+
+                     //   DAY 11 COMPLETE
+                     

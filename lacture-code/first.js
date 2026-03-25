@@ -956,3 +956,204 @@
 // });
           
         //    DAY 8 COMPLETE 
+        // DAY  9 AND 10 WAS PROJECT WHICH IS COMPLETE
+      
+      
+        // DAY 11 START 
+      
+      
+        //    CLASS AND OBJECT PROTO TYPE  
+// const student = {
+//         fullName : "ashishAgnihotri",
+//         marks :9.86,
+//         printMarks: function(){
+//                 console.log(this.marks) //this accesing marks
+//         },
+// };
+
+// const employ={
+//         calltex(){
+//         console.log("10% is tex")
+//         },
+// };
+
+// arjun ={
+//         salary : 5000,
+// };
+// arjun1 ={
+//         salary : 5000,
+// };
+// arjun2 ={
+//         salary : 5000,
+// };
+// arjun3 ={
+//         salary : 5000,
+// };
+// arjun4 ={
+//         salary : 5000,
+// };
+
+// let b = arjun.__proto=employ;
+// let b1 = arjun1.__proto=employ;
+// let b2 = arjun2.__proto=employ;
+// let b3 = arjun3.__proto=employ;
+// let b4= arjun4.__proto=employ;
+// console.log(b2.calltex());
+
+
+        //    class's 
+// class Toyota {
+//         constructor(brand,mileage){
+//                 console.log("creating new obj");
+//                 this.brand=brand
+//                 this.mileage= mileage;
+//         }
+//     start() {
+//         console.log("start");
+//     }
+
+//     stop() {
+//         console.log("car stop");
+//     }
+
+//     setBrand(brand) {
+//         this.brand = brand;
+//     }
+// }
+
+// let fortuner = new Toyota("fortuner" ,10);
+// let neno = new Toyota();
+// neno.stop();
+
+// fortuner.start();              // just call
+// // fortuner.setBrand("Fortuner"); // set brand
+
+// // console.log(fortuner.brand);   // print brand
+// console.log(fortuner );
+
+        //     INHERITANCE 
+// class parent{
+//         hellow(){
+//                 console.log("hellow")
+//         }
+// }
+// class child extends parent{}
+// let obj = new child();
+// obj.hellow();
+
+        //     SECOND EXAMPLE OF INHEREITANCE
+// class person{
+//         constructor(){
+//                 this.species = "homo, animal";
+//         }
+//         eat(){
+//                 console.log("eat")
+//         }
+//         sleep(){
+//                 console.log("sleep")
+//         }
+// }
+
+// class enginer {
+//         work(){
+//                 console.log("it can work")
+//         }
+// }
+// let ashuobj = new enginer;    for obj normal call bt obj
+// ashuobj.work();
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+// class enginer extends person{
+//         work(){
+//                 console.log("it can work")
+//         }
+// }
+// let ashuobj =  new enginer ; 
+// ashuobj.eat();
+// let p1 = new person;
+// let e1 = new enginer;
+
+        //    SUPER KEY WORD IF YOU WANT TO CALL PARENT CONSTRUCTOR
+// class Person {
+//     constructor() {
+//           console.log("enter parent constructor");
+//         this.species = "homo, animal";
+//     }
+
+//     eat() {
+//         console.log("eat");
+//     }
+
+//     sleep() {
+//         console.log("sleep");
+//     }
+// }
+
+// class Engineer extends Person {
+      
+        
+//     constructor(branch) {
+//           console.log("enter chind constructor");
+//         super(); // call parent constructor first
+//         this.branch = branch;
+//          console.log("exit chind constructor");
+
+//     }
+
+//     work() {
+//         console.log("it can work");
+//     }
+// } 
+
+             // ONE MORE INTRESATING THING 
+// class Person {
+//     constructor(name) {
+        
+//         this.species = "homo, animal";
+//         this.name = name ;
+//     }
+
+//     eat() {
+//         console.log("eat");
+//     }
+
+//     sleep() {
+//         console.log("sleep");
+//     }
+// }
+
+// class Engineer extends Person {
+      
+        
+//     constructor(name) {
+       
+//         super(name); // call parent constructor first
+        
+      
+
+//     }
+
+//     work() {
+//         super.eat();
+//         console.log("it can work");
+//     }
+// }
+
+// let engobj = new Engineer("ashu");
+// console.log(engobj);
+
+
+          //LACTURE ERROW HEANDILING 
+// let a = 2;
+// let b= 5;
+// console.log(a+b)
+// console.log(a+b)
+// // console.log(a+c)//error 
+// try{
+//        console.log(a+c) 
+// }catch(err){
+//         console.log(err)
+// }
+// console.log(a+b)
+// console.log(a+b)
