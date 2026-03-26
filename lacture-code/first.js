@@ -1157,3 +1157,194 @@
 // }
 // console.log(a+b)
 // console.log(a+b)
+
+        //      DAY 12 
+// SYNCHRONOUS PROGRAMIN WORK LINE BY LINE 
+// console.log("one");  |
+// console.log("2");    |   EX
+// console.log("3");    |
+
+//          ASYNCHRONOUS METHOD   DON'T RUN LINE BY LINE IF ONE CODE TAKE TIME EX(API)THEN IT CAN RUN ANOTHER CODE
+
+// console.log("1")
+// console.log("2")
+
+// setTimeout(()=>{
+//         console.log("hellow")
+// },2000) //2 second = 2000ms ;
+
+// console.log("3")
+
+              // CLASS BACK
+// function sum(a, b) {
+//     console.log(a + b);
+// }
+
+// function calculater(a, b, sumCallback) {
+//     sumCallback(a, b);
+// }
+
+// calculater(1, 2, sum);
+
+// const hellow=() =>{
+//         console.log('hellow')
+// }
+// setTimeout(hellow,3000)
+ 
+              //CALL BACK HELL 
+
+// function getData(data, getnext) {
+//     setTimeout(() => {
+//         console.log("data", data);
+        
+//         if (getnext) {  
+//             getnext();   
+//         }
+        
+//     }, 2000);
+// }
+
+// // function call  also call back hell 
+// getData(5, () => {
+//     getData(3, ()=>{
+//         getData(4)
+//     });
+// });    
+              //PROMISE
+// it is here to resolve probleam of call back in js
+
+// let promise = new Promise((resolve, reject) => {
+//     console.log("i am a promise");
+//     // resolve(123);
+//     // return;
+//     reject("some error");
+// });
+
+// console.log(promise);
+
+// function getData(dataId, getNextData) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log("data", dataId);
+//             resolve("success");
+
+//             if (getNextData) {
+//                 getNextData();
+//             }
+//         }, 5000);
+//     });
+// }
+
+ //  FOR REJECT 
+
+//  function getData(dataId, getNextData) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log("data", dataId);
+//             reject("error");
+
+//             if (getNextData) {
+//                 getNextData();
+//             }
+//         }, 5000);
+//     });
+// }
+
+ //  after full fill promise after reject
+          
+
+            // PROMISE CHAIN 
+// function asyncFunc1(){
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log("some datail");
+//             resolve("success");
+//         }, 4000);
+//     });
+// }
+// function asyncFunc2(){
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log("some datai2");
+//             resolve("success");
+           
+//         }, 4000);
+//     });
+// }
+
+// console.log("featching detail");
+
+//  asyncFunc1().then((res) => {
+    
+//     console.log("featch data2")
+//      asyncFunc2().then((res)=>{
+       
+//     });
+// }); 
+
+
+           //PROMISE CHAIN 
+
+//  function getData(dataId,) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log("data", dataId);
+//             resolve("sucess");
+
+//         }, 5000);
+//     });
+// }
+
+//  getData(1).then((res)=>{
+       
+//         return getData(2)
+// }).then((res)=>{
+//          return getData(3)
+// }).then((res)=>{
+//         console.log(res);
+// });
+
+                // ASYNC ---- await
+
+// async function hellow(){
+//         console.log("hellow")
+// }
+
+// async function getWeatherData() {
+//     await Api();//1stcall
+//     await Api();//2stcall
+// }
+
+// function Api(){
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log("weather data");
+//             resolve(200);
+//         }, 2000);
+//     });
+// }
+
+//     /ASYNC -AWAIT
+
+ function getData(dataId,) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log("data", dataId);
+            resolve("sucess");
+
+        }, 2000);
+    });
+}
+
+//     /ASYNC -AWAIT
+async function getAllData() {
+        console.log("geeting datav 1")
+        await getData(1);
+         console.log("geeting datav 2")
+        await getData(2);
+         console.log("geeting datav 3")
+        await getData(3);
+        
+}
+ 
+//  DAY 12 COMPLETE 
