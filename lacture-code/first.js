@@ -1297,7 +1297,7 @@
 
 //  getData(1).then((res)=>{
        
-//         return getData(2)
+        // return getData(2)
 // }).then((res)=>{
 //          return getData(3)
 // }).then((res)=>{
@@ -1326,25 +1326,76 @@
 
 //     /ASYNC -AWAIT
 
- function getData(dataId,) {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            console.log("data", dataId);
-            resolve("sucess");
+//  function getData(dataId,) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log("data", dataId);
+//             resolve("sucess");
 
-        }, 2000);
-    });
-}
+//         }, 2000);
+//     });
+// }
 
 //     /ASYNC -AWAIT
-async function getAllData() {
-        console.log("geeting datav 1")
-        await getData(1);
-         console.log("geeting datav 2")
-        await getData(2);
-         console.log("geeting datav 3")
-        await getData(3);
+// async function getAllData() {
+//         console.log("geeting datav 1")
+//         await getData(1);
+//          console.log("geeting datav 2")
+//         await getData(2);
+//          console.log("geeting datav 3")
+//         await getData(3);
         
-}
+// }
  
 //  DAY 12 COMPLETE 
+ //                   DAY 13 START 
+
+
+//       IIFE
+// IT CAN BE WRITTEN IN THREE FORM 1) (FUNCTION(){});
+//2)(()=>{}); ARROW FUNCTION 
+//3) (ASYNC()=>{});
+
+// (async function () {
+//         console.log("geeting datav 1")
+//         await getData(1);
+//          console.log("geeting datav 2")
+//         await getData(2);
+//          console.log("geeting datav 3")
+//         await getData(3);
+        
+// })();
+
+                // API  //FETCH API      
+
+// const URL = "https://catfact.ninja/fact";
+
+// const getFacts = async () => {
+//     console.log("getting data");
+//     let response = await fetch(URL);
+//     console.logog(response);  //json formet
+// };
+
+// now we have to make it into js object (and it is second step)
+
+/* AKAX is Asynchronous JS & XMl
+JSON is javascript object notation 
+JSON() METHOD : returns a second promise that resolves with the result of parsing the response body text as Json >(input as JSON ,output is JS object)*/
+
+const URL = "https://catfact.ninja/fact";
+const factPara = document.querySelector(".fact");
+const button = document.querySelector("#button");
+
+
+const getFacts = async () => {
+    console.log("getting data");
+    let response = await fetch(URL);
+    console.log(response); // response object
+
+    let data = await response.json();  
+        console.log(data); // JSON data
+      factPara.innerHTML  = data.text
+};
+button.addEventListener("click", getFacts);
+
+                                               //  DAY 13 END 
