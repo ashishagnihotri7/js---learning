@@ -1387,15 +1387,30 @@ const factPara = document.querySelector(".fact");
 const button = document.querySelector("#button");
 
 
-const getFacts = async () => {
-    console.log("getting data");
-    let response = await fetch(URL);
-    console.log(response); // response object
+// const getFacts = async () => {
+//     console.log("getting data");
+//     let response = await fetch(URL);
+//     console.log(response); // response object
 
-    let data = await response.json();  
-        console.log(data); // JSON data
-      factPara.innerHTML  = data.text
-};
+//     let data = await response.json();
+//         console.log(data); // JSON data
+//       factPara.innerHTML  = data.text
+// };
+
+                /// who to do with promise /////
+function getFacts() {
+        fetch(URL).then((response) => {
+                return response.json();
+        }).then((data) => {
+                console.log(data);
+                 factPara.innerHTML  = data.text
+        });
+}                       
+                
 button.addEventListener("click", getFacts);
 
-                                               //  DAY 13 END 
+                                           //  DAY 13 END
+                                        //DAY 14 STARTED 
+                                       
+                        
+                                               
