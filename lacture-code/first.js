@@ -1411,6 +1411,11 @@ button.addEventListener("click", getFacts);
 
                                            //  DAY 13 END
                                         //DAY 14 STARTED 
-                                       
+// 14 day end 
+// Completed 14 Days JavaScript Course 
+// - Practiced core JS concepts (variables, functions, loops, DOM, async/await)
+// - Built mini projects daily
+// - Final project completed successfully
+// - Improved problem solving and coding consistency                                
                         
                                                

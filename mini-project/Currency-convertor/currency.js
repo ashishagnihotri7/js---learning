@@ -1,5 +1,4 @@
-const BASE_URL =
-  "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies";
+const BASE_URL = "https://api.exchangerate-api.com/v4/latest";
 
 const dropdowns = document.querySelectorAll(".dropdown select");
 const btn = document.querySelector("form button");
@@ -45,15 +44,19 @@ btn.addEventListener("click", async (evt) => {
     amount.value = "1";
   }
 
-  const URL = `${BASE_URL}/${fromCurr.value.toLowerCase()}/${toCurr.value.toLowerCase()}.json`;
+  const URL = `${BASE_URL}/${fromCurr.value}`;
 
   let response = await fetch(URL);
   let data = await response.json();
-  let rate = data[toCurr.value.toLowerCase()];
+
+  let rate = data.rates[toCurr.value];
 
   let finalAmount = amtval * rate;
+
+  console.log(`${amtval} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`);
 
   msg.innerHTML = `${amtval} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`;
 });
 
-        //  DAY 14 IS RUNNING 
+//  my project finish and also i learn js
+                            //  DAY 14 COMPLETE 
